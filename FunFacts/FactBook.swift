@@ -14,6 +14,19 @@ struct FactBook {
     "You are probably a human.",
     "Facts are factual",
     "Opinions are not factual",
-    "Onions are factual"
+    "Onions are factual",
+    "Stop tapping the button below",
+    "Your mother is a whore",
+    "If you eat nuclear waste you will die",
+    "If you die you are considered dead",
+    "1 out of every person is a person"
   ]
+  
+  func randomFact() -> String {
+    var unsignedArrayCount = UInt32(factsArray.count)
+    var unsignedRandomNumber = arc4random_uniform(unsignedArrayCount)
+    var randomNumber = Int(unsignedRandomNumber)
+    
+    return factsArray[randomNumber]
+  }
 }
