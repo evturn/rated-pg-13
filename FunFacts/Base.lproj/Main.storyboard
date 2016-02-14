@@ -42,8 +42,8 @@
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="tUu-nF-xMe"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBl-hK-x5U">
-                                <rect key="frame" x="52" y="60" width="116" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBl-hK-x5U">
+                                <rect key="frame" x="44" y="60" width="116" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="116" id="LRB-Om-HlY"/>
                                     <constraint firstAttribute="height" constant="22" id="Zh2-EP-EdY"/>
@@ -55,7 +55,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.73333333333333328" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="fBl-hK-x5U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="3Id-sh-2Jj"/>
+                            <constraint firstItem="fBl-hK-x5U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="3Id-sh-2Jj"/>
                             <constraint firstItem="D1h-NI-a3y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="4rs-Or-MdO"/>
                             <constraint firstItem="D1h-NI-a3y" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="AKC-ZJ-qnn"/>
                             <constraint firstItem="fBl-hK-x5U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="NcV-Jo-Xd8"/>
