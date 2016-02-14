@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+
   @IBOutlet weak var funFactLabel: UILabel!
+  
   let factBook = FactBook()
   
   override func viewDidLoad() {
@@ -21,10 +23,10 @@ class ViewController: UIViewController {
     super.didReceiveMemoryWarning()
     
   }
+
   @IBAction func showFunFact() {
     funFactLabel.text = factBook.randomFact()
   }
-
 
 }
 
