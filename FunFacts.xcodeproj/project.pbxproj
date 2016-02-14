@@ -13,6 +13,7 @@
 		A68D723A1C700B08003151DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A68D72391C700B08003151DB /* Assets.xcassets */; };
 		A68D723D1C700B08003151DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A68D723B1C700B08003151DB /* LaunchScreen.storyboard */; };
 		A68D72451C7018C1003151DB /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D72441C7018C1003151DB /* FactBook.swift */; };
+		A68D72471C702F1A003151DB /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68D72461C702F1A003151DB /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A68D723C1C700B08003151DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A68D723E1C700B08003151DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A68D72441C7018C1003151DB /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		A68D72461C702F1A003151DB /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				A68D72391C700B08003151DB /* Assets.xcassets */,
 				A68D723B1C700B08003151DB /* LaunchScreen.storyboard */,
 				A68D723E1C700B08003151DB /* Info.plist */,
+				A68D72461C702F1A003151DB /* ColorWheel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				A68D72451C7018C1003151DB /* FactBook.swift in Sources */,
 				A68D72351C700B08003151DB /* ViewController.swift in Sources */,
 				A68D72331C700B08003151DB /* AppDelegate.swift in Sources */,
+				A68D72471C702F1A003151DB /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +293,7 @@
 				A68D72431C700B08003151DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
