@@ -26,6 +26,14 @@ class PlaylistMasterViewController: UIViewController {
   @IBAction func buttonPressed() {
     view.backgroundColor = UIColor.orangeColor()
   }
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    if segue.identifier == "showPlaylistDetail" {
+      let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
+      
+      playlistDetailController.segueLabelText = "I've been pressed"
+    }
+  }
 
 }
 
