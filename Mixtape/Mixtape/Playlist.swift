@@ -16,4 +16,21 @@ struct Playlist {
   var largeIcon: UIImage?
   var artists: [String] = []
   var backgroundColor: UIColor = UIColor.clearColor()
+  
+  init(index: Int) {
+    let musicLibrary = MusicLibrary().library
+    let playListDictionary = musicLibrary[index]
+    
+    title = playListDictionary["title"] as? String!
+    description = playListDictionary["description"] as? String!
+    
+    let iconName = playListDictionary["icon"] as? String!
+    icon = UIImage(named: iconName!)
+    
+    let largeIconName = playListDictionary["largeIcon"] as? String!
+    largeIcon = UIImage(named: largeIconName!)
+   
+    artists += playListDictionary["artists"] as! [String]
+  }
+  
 }
