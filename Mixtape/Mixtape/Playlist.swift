@@ -31,9 +31,12 @@ struct Playlist {
     largeIcon = UIImage(named: largeIconName!)
    
     artists += playListDictionary["artists"] as! [String]
+    
+    let colorsDictionary = playListDictionary["backgroundColor"] as! [String: CGFloat]
+    backgroundColor = rgbColorFromDictionary(colorsDictionary)
   }
   
-  func rgbColorFromDictionart(colorDictionary: [String: CGFloat]) -> UIColor {
+  func rgbColorFromDictionary(colorDictionary: [String: CGFloat]) -> UIColor {
     let red = colorDictionary["red"]!
     let green = colorDictionary["green"]!
     let blue = colorDictionary["blue"]!

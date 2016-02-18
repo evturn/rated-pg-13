@@ -24,7 +24,7 @@
                                     <segue destination="zbf-on-ZjG" kind="push" identifier="showPlaylistDetail" id="zFQ-Pi-EoU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coffee" translatesAutoresizingMaskIntoConstraints="NO" id="bpa-oD-st0">
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bpa-oD-st0">
                                 <rect key="frame" x="60" y="184" width="200" height="200"/>
                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -44,6 +44,7 @@
                     <navigationItem key="navigationItem" title="Playlists" id="Ozp-OS-VGS"/>
                     <connections>
                         <outlet property="aButton" destination="fX9-KS-Wuz" id="A94-r0-kZY"/>
+                        <outlet property="playlistImageView0" destination="bpa-oD-st0" id="dJF-7i-YuT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -105,6 +106,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="coffee" width="53" height="107"/>
+        <image name="placeholder" width="66" height="73"/>
     </resources>
 </document>
