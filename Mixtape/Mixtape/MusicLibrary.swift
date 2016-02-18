@@ -12,7 +12,7 @@ import Foundation
 struct MusicLibrary {
   let library = [
     [
-      "title": "Only Backstreet Boys",
+      "title": "Jock Jams 12",
       "description": "Get your morning going by singing along to these classic tracks as you hit the shower bright and early!",
       "icon": "coffee.pdf",
       "largeIcon": "coffee_large.pdf",
@@ -36,7 +36,7 @@ struct MusicLibrary {
       "artists": ["Afrojack", "Kid Cudi", "Daft Punk", "Icona Pop", "Gesaffelstien", "Roksnoix", "deadmau5"]
     ],
     [
-      "title": "Jock Jams 12",
+      "title": "Only Backstreet Boys",
       "description": "Keep calm and focus. Shut out the noise around you and grind away with some mind sharpening instrumental tunes.",
       "icon": "laptop.pdf",
       "largeIcon": "laptop_large.pdf",
