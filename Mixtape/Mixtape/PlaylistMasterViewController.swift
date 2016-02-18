@@ -35,7 +35,7 @@ class PlaylistMasterViewController: UIViewController {
     if segue.identifier == "showPlaylistDetail" {
       let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
       
-      playlistDetailController.segueLabelText = "I've been pressed"
+      playlistDetailController.playlist = Playlist(index: 0)
     }
   }
 
