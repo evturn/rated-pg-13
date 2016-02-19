@@ -32,6 +32,7 @@ class PlaylistDetailViewController: UIViewController {
       
       playlistArtist0.text = playlist!.artists[0]
       playlistArtist1.text = playlist!.artists[1]
+      playlistArtist2.text = playlist!.artists[2]
     }
   }
 

@@ -25,7 +25,7 @@ struct MusicLibrary {
       "icon": "ball.pdf",
       "largeIcon": "ball_large.pdf",
       "backgroundColor": ["red": 255, "green": 102, "blue": 51, "alpha": 1.0],
-      "artists": ["Rammstein", "Backstreet Boys"]
+      "artists": ["Rammstein", "Backstreet Boys", "Metallica"]
     ],
     [
       "title": "Shaggy & Celine Dion",
@@ -41,7 +41,7 @@ struct MusicLibrary {
       "icon": "laptop.pdf",
       "largeIcon": "laptop_large.pdf",
       "backgroundColor": ["red": 51, "green": 153, "blue": 204, "alpha": 1.0],
-      "artists": ["Metallica", "Rammstein"]
+      "artists": ["Metallica", "Rammstein", "Sepultura"]
     ],
     [
       "title": "Kidz Bop 33.333333",
@@ -49,7 +49,7 @@ struct MusicLibrary {
       "icon": "joystick.pdf",
       "largeIcon": "joystick_large.pdf",
       "backgroundColor": ["red": 51, "green": 204, "blue": 102, "alpha": 1.0],
-      "artists": ["C-Murder", "Pimp Trick Gangsta Click"]
+      "artists": ["C-Murder", "Pimp Trick Gangsta Click", "Boosie Badazz"]
     ],
     [
       "title": "Now That's What I Call Shit! 17",
@@ -57,7 +57,7 @@ struct MusicLibrary {
       "icon": "coffee.pdf",
       "largeIcon": "coffee_large.pdf",
       "backgroundColor": ["red": 255, "green": 102, "blue": 153, "alpha": 1.0],
-      "artists": ["Front Desk at Planet Fitness", "Z-100"]
+      "artists": ["Front Desk at Planet Fitness", "Z-100", "102.7 KISS FM"]
     ]
   ]
 }
