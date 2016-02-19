@@ -12,6 +12,11 @@ class PlaylistMasterViewController: UIViewController {
 
   var playlistsArray: [UIImageView] = []
   @IBOutlet weak var playlistImageView0: UIImageView!
+  @IBOutlet weak var playlistImageView1: UIImageView!
+  @IBOutlet weak var playlistImageView2: UIImageView!
+  @IBOutlet weak var playlistImageView3: UIImageView!
+  @IBOutlet weak var playlistImageView4: UIImageView!
+  @IBOutlet weak var playlistImageView5: UIImageView!
 
   override func viewDidLoad() {
     super.viewDidLoad()
