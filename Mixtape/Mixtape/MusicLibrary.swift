@@ -14,7 +14,7 @@ struct MusicLibrary {
     [
       "title": "Jock Jams 12",
       "description": "Get your morning started with these nauseating tracks as your life hits rock bottom!",
-      "icon": "running.pdf"
+      "icon": "running.pdf",
       "largeIcon": "running_large.pdf",
       "backgroundColor": ["red": 255, "green": 204, "blue": 51, "alpha": 1.0],
       "artists": ["C+C Music Factory", "DJ Sven", "Weather Girls"]
@@ -57,7 +57,7 @@ struct MusicLibrary {
       "icon": "coffee.pdf",
       "largeIcon": "coffee_large.pdf",
       "backgroundColor": ["red": 255, "green": 102, "blue": 153, "alpha": 1.0],
-      "artists": ["Planet Fitness Front Desk"]
+      "artists": ["Front Desk at Planet Fitness", "Z-100"]
     ]
   ]
 }
