@@ -20,7 +20,7 @@ class PlaylistMasterViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    playlistsArray.append(playlistImageView0)
+    playlistsArray += [playlistImageView0, playlistImageView1, playlistImageView2, playlistImageView3, playlistImageView4, playlistImageView5]
     
     for index in 0..<playlistsArray.count {
       let playlist = Playlist(index: index)
@@ -36,10 +36,6 @@ class PlaylistMasterViewController: UIViewController {
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
-  }
-
-  @IBAction func buttonPressed() {
-    view.backgroundColor = UIColor.orangeColor()
   }
   
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
