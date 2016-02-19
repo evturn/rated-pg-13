@@ -8,6 +8,7 @@
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
@@ -16,12 +17,54 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P06-Aw-CD0">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWV-CI-aIJ">
+                                <rect key="frame" x="0.0" y="300" width="600" height="300"/>
+                                <color key="backgroundColor" red="0.12549019607843137" green="0.14117647058823529" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4fv-JT-ZU9">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fI2-pM-Te1">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="jdi-pr-6G3">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="SWb-I0-idW"/>
+                                                    <constraint firstAttribute="width" constant="120" id="f70-cD-oaA"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4fv-JT-ZU9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1X8-vO-0me"/>
+                            <constraint firstItem="4fv-JT-ZU9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7Ib-hA-LG7"/>
+                            <constraint firstItem="FWV-CI-aIJ" firstAttribute="width" secondItem="P06-Aw-CD0" secondAttribute="width" id="8W0-ue-u2s"/>
+                            <constraint firstAttribute="trailing" secondItem="P06-Aw-CD0" secondAttribute="trailing" id="Hei-7g-MSY"/>
+                            <constraint firstItem="FWV-CI-aIJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="aYH-90-UZm"/>
+                            <constraint firstAttribute="trailing" secondItem="FWV-CI-aIJ" secondAttribute="trailing" id="eIq-1Q-eVv"/>
+                            <constraint firstItem="P06-Aw-CD0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fag-24-eCr"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="FWV-CI-aIJ" secondAttribute="bottom" id="rIH-dl-LZU"/>
+                            <constraint firstItem="P06-Aw-CD0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="s6T-WI-4gn"/>
+                            <constraint firstItem="FWV-CI-aIJ" firstAttribute="height" secondItem="P06-Aw-CD0" secondAttribute="height" id="taU-7s-GAp"/>
+                            <constraint firstItem="FWV-CI-aIJ" firstAttribute="top" secondItem="P06-Aw-CD0" secondAttribute="bottom" id="v4P-qn-u2C"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
 </document>
