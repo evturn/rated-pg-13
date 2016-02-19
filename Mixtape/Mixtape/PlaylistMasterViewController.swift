@@ -29,7 +29,7 @@ class PlaylistMasterViewController: UIViewController {
   }
   
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-    if segue.identifier == "showPlaylistDetail" {
+    if segue.identifier == "showPlaylistDetailSegue" {
       let playlistDetailController = segue.destinationViewController as! PlaylistDetailViewController
       
       playlistDetailController.playlist = Playlist(index: 0)
@@ -37,7 +37,7 @@ class PlaylistMasterViewController: UIViewController {
   }
 
   @IBAction func showPlaylistDetail(sender: AnyObject) {
-    print("Oh yes.")
+    performSegueWithIdentifier("showPlaylistDetailSegue", sender: sender)
   }
 }
 

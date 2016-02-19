@@ -41,6 +41,7 @@
                     <navigationItem key="navigationItem" title="Playlists" id="Ozp-OS-VGS"/>
                     <connections>
                         <outlet property="playlistImageView0" destination="bpa-oD-st0" id="dJF-7i-YuT"/>
+                        <segue destination="zbf-on-ZjG" kind="push" identifier="showPlaylistDetailSegue" id="Q35-ba-aRs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
